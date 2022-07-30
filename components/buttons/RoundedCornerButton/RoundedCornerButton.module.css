@@ -1,0 +1,19 @@
+.button {
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+.outlinePrimary {
+    background: none;
+	color: inherit;
+	border: 1px solid #D2FAFB;
+}
+
+.outlinePrimary:hover {
+    background: #d2fafb2e;
+}

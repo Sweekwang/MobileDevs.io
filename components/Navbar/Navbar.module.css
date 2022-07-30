@@ -1,0 +1,51 @@
+.navbar {
+    position: fixed;
+    height: 65px;
+    background-color: var(--bg-color);
+    width: 100%;
+}
+
+.navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navContent ul {
+    height: max-content;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.navContent li {
+    float: left;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.navContent li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 65px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.navbar li a:hover{
+    color: var(--accent-color);
+    height: 60px;
+}
+
+.navContent li p {
+    padding-left: 12px;
+}
+  
+.btn {
+    padding: 6px 26px;
+}
